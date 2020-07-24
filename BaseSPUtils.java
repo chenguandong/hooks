@@ -84,7 +84,7 @@ public class BaseSPUtils {
      *
      * @param context
      */
-    public static void clear(Context context) {
+    public static void Clear(Context context) {
         SharedPreferences sp = context.getSharedPreferences(SpKey.FILE_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
         editor.clear();
